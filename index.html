@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sachkunde · Alemania</title>
+<link rel="stylesheet" href="../shared/styles.css">
+</head>
+<body>
+<div class="wrap">
+<p style="margin:0"><a class="back" href="../materias/" data-app="../materias/">⬅️ Materias</a></p>
+<h1>🇩🇪 Sachkunde</h1>
+<div class="card">
+<p style="font-size:1.2rem;text-align:center;margin:0">¡Hola, <span class="nm">amiguito</span>! Prepárate para el examen de Sachkunde (Deutsche Schule). <a href="#" onclick="cambiarNombre();return false" style="font-size:.9rem;color:#2b8de2">✏️ Cambiar apodo</a></p>
+</div>
+<div class="card">
+<a class="btn g" style="text-decoration:none;text-align:center" href="../deutschland-entdecker/" data-app="../deutschland-entdecker/">🧭 Deutschland-Entdecker<br><small style="font-weight:600">Paisajes, 9 vecinos, ciudades, ríos y mares</small></a>
+<a class="btn" style="text-decoration:none;text-align:center;background:#1f7a6b" href="../laender-detektive/" data-app="../laender-detektive/">🕵️ Länder-Detektive<br><small style="font-weight:600">16 Bundesländer y Landeshauptstädte</small></a>
+<a class="btn o" style="text-decoration:none;text-align:center" href="../deutschland-zeitreise/" data-app="../deutschland-zeitreise/">⏳ Deutschland-Zeitreise<br><small style="font-weight:600">Steckbrief, Berlin, lugares y mock 24</small></a>
+</div>
+<div class="card">
+<p class="hint" style="text-align:left;margin:0">Alemán en las preguntas · ayuda en español al tocar Ayuda · progreso solo en este dispositivo · sin subir datos.</p>
+<p class="hint" style="text-align:left">Borrador privado para revisión familiar. Mapas: Natural Earth (dominio público).</p>
+</div>
+</div>
+<div id="nmBox" style="display:none;position:fixed;inset:0;background:rgba(31,42,68,.55);z-index:99;align-items:center;justify-content:center;padding:16px">
+<form id="nmForm" style="background:#fff;border-radius:20px;padding:24px;max-width:420px;width:100%;text-align:center">
+<p style="font-size:1.4rem;font-weight:700;margin:0 0 12px">👋 ¿Cómo te llamas?</p>
+<input id="nmIn" maxlength="20" autocomplete="off" style="width:100%;font-size:1.4rem;padding:12px;border:2px solid #2b8de2;border-radius:12px;text-align:center">
+<button type="submit" style="width:100%;font-size:1.3rem;padding:14px;margin-top:12px;border:0;border-radius:14px;background:#22a35a;color:#fff;font-weight:700">¡Listo! ✅</button>
+</form></div>
+<script src="../shared/common.js"></script>
+<script>applyNombre();</script>
+</body></html>
